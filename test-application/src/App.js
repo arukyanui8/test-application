@@ -35,7 +35,7 @@ export default function App() {
           <button className="primary_button" onClick={incrementation}>Increment</button>
         </div>
         <button className='icon_button' onClick={reset}>Reset</button>
-
+        <button className='icon_button' onClick={reset}>Reset</button>
       </div>
   </div>
     
