@@ -4,8 +4,6 @@ import cx from 'classnames'
 
 export default function App() {
   const [counter, setCounter] = useState(0);
-
-
   //Incrementation
   const incrementation = () => setCounter((prev) => prev + 1)
   //Decrementation  
@@ -20,7 +18,9 @@ export default function App() {
           <h1>Play this game</h1>
           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, aut! Nobis nostrum et suscipit, culpa sapiente porro quia voluptas ipsam iure nulla perspiciatis quibusdam, a obcaecati labore voluptatum quidem quasi animi. Illum, accusantium. Dolores sed blanditiis alias consequatur quasi quo harum totam earum velit qui. </p>
         </div>
-        <span className={cx(`counter_output`,{'danger': counter > 2})}>{counter}</span>
+        <span className={cx(`counter_output`,{'positive': counter > 0},{'negative': counter < 0})}>
+          {counter}
+        </span>
         <div className="counter_actions">
           <button className='primary_button' onClick={decrementation}>Decrement</button>
           <button className="primary_button" onClick={incrementation}>Increment</button>

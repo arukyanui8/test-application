@@ -48,7 +48,14 @@ body {
     font-family: 'Dela Gothic One', cursive;
     margin: 32px 0;
     color: white;
+}
 
+.positive {
+    color: #25c93a;
+}
+
+.negative {
+    color: #c92525;
 }
 
 .counter_actions {
