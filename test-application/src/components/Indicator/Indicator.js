@@ -1,7 +1,8 @@
 import React from "react";
-import "./Checker.scss"
+import "./Indicator.scss"
 
-export default function Checker() {
+
+export default function Indicator() {
     return (
         <div id='container'>
             
