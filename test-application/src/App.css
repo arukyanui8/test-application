@@ -47,15 +47,15 @@ body {
     line-height: 112px;
     font-family: 'Dela Gothic One', cursive;
     margin: 32px 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .positive {
-    color: #25c93a;
+    color: #50ff67;
 }
 
 .negative {
-    color: #c92525;
+    color: #ff264d;
 }
 
 .counter_actions {
